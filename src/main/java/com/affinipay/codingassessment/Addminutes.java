@@ -9,7 +9,7 @@ public class Addminutes {
         DateCalculator dateCalculator = new DateCalculator();
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter a 12-hour time string : ");
+        System.out.print("Enter a 12-hour time string (HH:MM AM/PM) : ");
         String time = input.nextLine();
         System.out.print("Enter signed integer for minutes : ");
         int minutes = input.nextInt();
